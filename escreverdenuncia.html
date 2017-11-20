@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="shortcut icon" href="eye.ico" />
+    <link href='https://fonts.googleapis.com/css?family=Baloo Bhaijaan' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <meta charset="utf-8"></meta>
+    <title>Oráculo | Fazer denúncia</title>
+    <style type="text/css">
+      </style>
+    <script type="text/javascript" src="FileSaver.js"></script>
+    <script type="text/javascript" src="escreverdenuncia.js"></script>
+    </head>
+  <body>
+    <div class="header"><a href="index.html" id="home">Oráculo</a></div>
+    <br>
+    <a onclick="history.back(-1)" id="nav1" title="voltar">&larr; Voltar</a>
+    <div>
+    <form action="#" name="formulario" onsubmit="return enviar();">
+    <div class = "content">
+      <h4 class="digitar_denuncia">Digite sua denúncia aqui:</h4> 
+      <textarea name="denuncia" rows="9" cols="80" class="textarea" placeholder="Não se preocupe, seu anonimato está garantido!  ;)" required="required"></textarea>
+      <br>
+      <input type="submit" value="Enviar" class="botao_enviar" onmousedown="enviar()" required="required" />
+      </div>
+    </form>
+  <div>
+    </div>
+     </div>
+  </body>
+</html>

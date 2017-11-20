@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="shortcut icon" href="eye.ico" />
+    <link href='https://fonts.googleapis.com/css?family=Baloo Bhaijaan' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <meta charset="utf-8"></meta>
+    <title>Oráculo | Denúncias</title>
+    <style type="text/css">body { overflow:hidden; }</style>
+
+    <script type="text/javascript">
+
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+    if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+        document.getElementById("nav2").style.display = "block";
+    } else {
+        document.getElementById("nav2").style.display = "none";
+    }
+  }
+
+  // volta para o topo da página
+  function topFunction() {
+    document.body.scrollTop = 0; // For Chrome, Safari and Opera 
+    document.documentElement.scrollTop = 0; // For IE and Firefox
+  } 
+    </script>
+    </head>
+  <body>
+    <div class="header"><a href="index.html" id="home">Oráculo</a></div>
+    <br>
+    <div class = "h2">Principais denúncias:</div>
+    <br>
+    <a onclick="history.back(-1)" id="nav1">&larr; Voltar</a>
+    <a onclick="topFunction()" id="nav2">Topo</a>
+    <div class = "denuncias">
+        <table align="center" class="galeria">
+          <tr>
+            <td><iframe src="denuncia.html" onerror="this.src='default.jpg'" id = 'iframe' class="denuncia1" border="30" frameborder="30"></iframe></td>
+            <td><iframe src="denuncia (1).html" onerror="this.src='default.jpg'" id = 'iframe' class="denuncia1" border="30" frameborder="30"></iframe></td>
+            <td><iframe src="denuncia (2).html" onerror="this.src='default.jpg'" id = 'iframe' class="denuncia1" border="30" frameborder="30"></iframe></td>
+            <td><iframe src="denuncia (3).html" onerror="this.src='default.jpg'" id = 'iframe' class="denuncia1" border="30" frameborder="30"></iframe></td>
+          <tr>
+            <td><iframe src="denuncia (4).html" onerror="this.src='default.jpg'" id = 'iframe' class="denuncia1" border="30" frameborder="30"></iframe></td>
+            <td><iframe src="denuncia (5).html" onerror="this.src='default.jpg'" id = 'iframe' class="denuncia1" border="30" frameborder="30"></iframe></td>
+            <td><iframe src="denuncia (6).html" onerror="this.src='default.jpg'" id = 'iframe' class="denuncia1" border="30" frameborder="30"></iframe></td>
+            <td><iframe src="denuncia (7).html" onerror="this.src='default.jpg'" id = 'iframe' class="denuncia1" border="30" frameborder="30"></iframe></td>
+          </tr>
+        </table>
+    </div>
+  </body>
+</html>

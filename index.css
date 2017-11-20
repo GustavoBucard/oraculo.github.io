@@ -1,0 +1,291 @@
+body {
+    background-color: #190a5b; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#2274d8, #190a5b); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#2274d8, #190a5b); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#2274d8, #190a5b); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#2274d8, #190a5b); /* Standard syntax */
+    background-repeat: no-repeat;
+    height: 100%;
+    background-attachment: fixed;
+    font-family: 'Baloo Bhaijaan';
+    text-align: center;
+    color: white;
+}
+.header {
+    height: 130px;
+    background-color: transparent;
+    margin: 0px 0px 0px 0px;
+    color: #ffffff;
+    font-size: 7em;
+    font-weight: lighter;
+    text-align: center;
+}
+.content {
+    font-size: 2em;
+}
+.h2 {
+    font-size: 1.8em;
+    text-align: center;
+    font-weight: lighter;
+}
+.galeria, a { 
+    text-decoration: none;
+}
+#denuncia {
+    vertical-align: top;
+    resize: vertical;
+}
+img {
+    float: center;
+    margin: 1em;
+    border-radius: 10px;
+    height: 10em;
+    width: 10em;
+    transition: box-shadow 1s, height 1s, width 1s;
+}
+img:hover {
+    box-shadow: 5px 5px 100px #111111;
+    height: 11em;
+    width: 11em;
+    transition: box-shadow 1s, height 1s, width 1s;
+}
+#iframe {
+    color: #fff;
+    float: center;
+    margin: 0.2em;
+    border-radius: 10px;
+    height: 10em;
+    width: 13em;
+    transition: box-shadow 1s, height 1s, width 1s;
+}
+#iframe:hover {
+    box-shadow: 5px 5px 100px #111111;
+    height: 12em;
+    width: 15em;
+    transition: box-shadow 1s, height 1s, width 1s;
+}
+#descricao {
+    font-size: 1em;
+    font-weight: lighter;
+}
+hr {
+    margin-right: 25em;
+    margin-left: 25em;
+}
+.nave {
+    color: #cccccc;
+    text-decoration: none;
+    font-size: 1.4em;
+    float: center;
+    margin-left: .5em;
+    margin-right: .5em;
+    height: 10em;
+    width: 10em;
+    padding: 0px 10px 0px 10px;
+    transition: box-shadow 1s, margin-left 1s, margin-right 1s;
+}
+.nave:hover {
+    box-shadow: 0px 10px 10px #111111;
+    padding: 0px 10px 0px 10px;
+    transition: box-shadow 1s, margin-left 1s, margin-right 1s;
+}
+.nave:active {
+    box-shadow: 2px 2px 5px #111111;
+    transition: box-shadow 1s, margin-left 1s, margin-right 1s;
+}⁠⁠⁠⁠ 
+#voltar {
+	float: right;
+	position: fixed;
+    border: 10px;
+    background-color: #000;
+    color: #fff; 
+    padding: 15px;
+    border-radius: 5px;
+    transition: 1s;
+    display: none;
+}
+#voltar:hover { 
+	background-color: #555;
+    border-radius: 15px;
+    padding: 10px 10px 10px 10px;
+    transition: 1s;
+}
+#nav1 {
+	float: left;
+	position: fixed;
+    bottom: 20px; 
+    left: 20px; 
+    border: none;
+    background-color: #3D4ACC;
+    color: white; 
+    padding: 15px;
+    border-radius: 5px;
+    transition: 1s;
+    margin-bottom: 10px;
+}
+#nav1:hover {
+    background-color: #0F044A;
+    border-radius: 10px;
+    transition: 1s;
+}
+#nav2 {
+	float: right;
+	position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    border: none;
+    background-color:#3D4ACC;
+    color: white; 
+    padding: 15px;
+    border-radius: 5px;
+    transition: 1s;
+}
+#nav2:hover {
+    background-color: #0F044A;
+    border-radius: 10px;
+    transition: 1s;
+}
+.sobre {
+    font-size: 1.6em;
+    text-align: center;    
+    transition: 1.5s;
+    border-radius: 10px;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: normal;
+    margin:2% 42% 2% 42%;
+}
+.sobre:hover {
+    background-color: #2274d8;
+    color: #FFF; 
+    transition:1.5s;
+    border-radius: 5px;
+}
+.digitar_denuncia {
+    font-weight: lighter;
+}
+.quadrado { 
+    font-size: 2em;
+    background-color: #122141;   
+    border-radius: 3px;
+    margin-right: 1em;
+    float: center;
+    color: white;
+    transition:2s;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+}
+.quadrado:hover {
+    transition:2s;
+    color: white;
+    background-color: #007;
+    border-radius: 0px;
+    box-shadow: 0px 10px 10px #111111;
+    transition: box-shadow 1s, margin-left 1s, margin-right 1s;
+}
+.bottons {
+    text-align: center;
+}
+.denuncia_texto {
+    color: white;
+    font-weight: lighter;
+    background-color: #004;    
+    padding: 10% 10% 10% 10%;
+    border-radius: 10px;
+}
+.denuncia_texto:hover {
+    box-shadow: 0px 10px 10px #111111;
+    transition: box-shadow 1s, height 1s, width 1s;
+}
+.equipe {
+    font-size: 3em;
+    text-align: center;
+}
+.img1 {
+    border-radius: 10em;
+    border: 5px solid;
+    border-color: white;
+    margin: 0px 0px 0px 20px;
+    text-align: center;  
+}
+.legenda {
+    display: table-row;
+    color: white;
+}
+#footer {
+    margin-right: 25px;
+}
+.titulo {
+    font-size: 2em;
+    font-weight: normal;
+    margin-top: 0px;
+}
+.explicacao {
+    margin: 0% 10% 0% 10%;
+    font-weight: lighter;
+    font-family: Calibri;
+}
+.tipo_denuncia {
+    font-size: 2em;
+    font-weight: lighter;
+}
+.campus_footer {
+    margin: 0px 30px 0px 30px;
+}
+h2 {
+    text-align: center;
+}
+.tipo_denuncia {
+    text-align: center;
+}
+.relatar {
+    text-align: center;
+}
+.denuncia1 {
+    background-color: #FFF;
+    transition: box-shadow 1s, height 1s, width 1s;
+}
+.denuncia1:hover {
+    transition: box-shadow 1s, height 1s, width 1s;
+    box-shadow: 0px 10px 10px #111111;
+    border: solid #190a5b;
+}
+#home {
+    text-decoration: none;
+    color: #122141;
+    transition: ease-in-out 1s;
+    font-size: 0.8em;
+}
+#home:hover {
+    color:#122122;
+    text-shadow: 0px 10px 10px #111111;
+    transition: ease in out1s text-shadow 1s height 1s, width 1s;
+}
+.botao_enviar {
+    background-color: #122141;
+    color: white;
+    padding: 15px 20px 15px 20px;
+    border-radius: 10px;
+    border: none;
+    transition: 1s; 
+    font-family: 'Baloo Bhaijaan';
+}
+.botao_enviar:hover {
+    background-color: #1F124E;
+    border-radius: 5px;
+    transition: 1s;
+    padding: 15px 30px 15px 30px;
+}
+.textarea {
+    border-radius: 10px;
+    border-color: #122141;
+    padding: 10px 10px 10px 10px;
+    font-family: 'Calibri';
+    font-size: 15px;
+}
+td {
+    color: white;
+}
+.footer {
+    max-height: 20px;
+}

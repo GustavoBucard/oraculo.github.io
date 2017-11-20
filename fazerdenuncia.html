@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="shortcut icon" href="eye.ico" />
+  	<link href='https://fonts.googleapis.com/css?family=Baloo Bhaijaan' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <meta charset="utf-8"></meta>
+    <title>Oráculo | Fazer denúncia</title>
+    <script type="text/javascript">
+
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("nav2").style.display = "block";
+    } else {
+        document.getElementById("nav2").style.display = "none";
+    }
+  }
+
+  // volta para o topo da página
+  function topFunction() {
+    document.body.scrollTop = 0; // For Chrome, Safari and Opera 
+    document.documentElement.scrollTop = 0; // For IE and Firefox
+  } 
+    </script>
+    <style type="text/css">
+      html{overflow-y:hidden;}
+      </style>
+    </head>
+  <body>
+    <div class="header"><a href="index.html" id="home">Oráculo</a></div>
+    <a onclick="history.back(-1)" id="nav1" title="voltar">&larr; Voltar</a>
+    <div class= "relatar"><h2 class="tipo_denuncia">Qual tipo de denúncia deseja relatar?</h2><br></div>
+    <div>
+    <a href="escreverdenuncia.html" class="quadrado" id="infraestrutura">Infraestrutura</a>
+    <a href="escreverdenuncia.html" class="quadrado" id="assalto">Assalto</a> 
+    <a href="escreverdenuncia.html" class="quadrado" id="despercidio">Desperdício</a>
+    <br><br><br><br>
+    <a href="escreverdenuncia.html" class="quadrado" id="vandalismo">Vandalismo</a>
+    <a href="escreverdenuncia.html" class="quadrado" id="furto">Furto</a>
+    <a href="escreverdenuncia.html" class="quadrado" id"assedio">Assédio</a>  
+    <a href="escreverdenuncia.html" class="quadrado" id="outras">Outras</a>
+    <br><br><br><br>
+    <a href="escreverdenuncia.html" class="quadrado" id="acidente de transito">Acidente de trânsito</a>
+    <a href="escreverdenuncia.html" class="quadrado" id="animal abandonado">Animal Abandonado</a>
+    </div>
+  </body>
+</html>
